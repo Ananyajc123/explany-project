@@ -176,11 +176,13 @@
   }
   
   .gradient-text {
-    background: linear-gradient(135deg, var(--eco-green), var(--eco-blue), var(--eco-purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
+  background: linear-gradient(...);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Remove blur! */
+  filter: none;
+}
+
   
   .glass-effect {
     backdrop-filter: blur(12px);
