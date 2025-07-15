@@ -7,7 +7,8 @@ import { Smartphone, Store, Coins, Leaf } from "lucide-react";
 export default function HeroSection() {
   return (
     <section className="pt-20 pb-16 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-eco-green/10 via-eco-blue/10 to-eco-purple/10 animate-pulse-slow"></div>
+    <div className="absolute inset-0 bg-gradient-to-r from-eco-green/20 via-eco-blue/20 to-eco-purple/20"></div>
+
       <div className="container mx-auto px-4 relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
