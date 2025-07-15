@@ -35,3 +35,8 @@ export default defineConfig({
     },
   },
 });
+export default defineConfig({
+  root: 'client', // 👈 set root folder
+  plugins: [react()],
+})
+
